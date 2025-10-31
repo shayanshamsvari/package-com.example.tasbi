@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- پس‌زمینه کل صفحه -->
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/shop_bg"
+        android:scaleType="centerCrop" />
+
+    <!-- هدر بالای صفحه -->
+
+    <!-- دکمه تسبيح ها -->
+
+    <ImageView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:gravity="center"
+        android:src="@drawable/head_shop" />
+
+    <ImageView
+        android:id="@+id/btnTasbih"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/menu_shop1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+    <!-- دکمه تم های صفحه -->
+    <ImageView
+        android:id="@+id/btnThemes"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/btnTasbih"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu_shop2"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+    <!-- ویوپیجر (صفحات مختلف) -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/btnThemes"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"/>
+</RelativeLayout>
