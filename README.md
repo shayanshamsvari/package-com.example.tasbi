@@ -63,3 +63,30 @@ and explore **holy shrines in immersive 3D environments** with **live streaming*
    ```bash
    git clone https://github.com/YOUR_USERNAME/TasbihApp.git
    cd TasbihApp
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Extended License Description
+
+This project is licensed under the MIT License, one of the most permissive and widely used open-source licenses.
+[📜 Extended License Description (English)
+
+This project is licensed under the MIT License, one of the most permissive and widely used open-source licenses.
+
+By applying the MIT License, the author grants everyone the freedom to use, copy, modify, merge, publish, distribute, sublicense, and even sell copies of this software, without any restrictions, while retaining the original copyright notice.
+
+Key Points:
+
+✅ You are free to use this software for personal, educational, or commercial purposes.
+
+✅ You can modify the code and incorporate it into your own projects.
+
+✅ You must include the original copyright and license notice in any distribution.
+
+❌ The software is provided "as-is", without any warranty of any kind. The author is not liable for any damages resulting from the use of this software.
+
+Why MIT License?
+The MIT License is chosen to encourage open collaboration, learning, and sharing. It allows developers to freely explore, adapt, and contribute to the project while ensuring proper credit is given to the original creator.
+
+This license aligns perfectly with the goal of this project — providing a spiritual and educational tool to users while fostering an open and collaborative development environment.]
