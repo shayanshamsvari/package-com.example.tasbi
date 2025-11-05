@@ -1,5 +1,6 @@
 package com.example.tasbi;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
@@ -92,13 +93,8 @@ public String videoid=null;
     }
 
     /** روی کلیک، اول اخطار می‌آید و بعد از تایید لینک باز می‌شود */
-    private void addLinkClickWithConfirm(View v, String url) {
-
-
-
-
-
-      v.setOnClickListener(view -> showConfirmThenOpen(url));
+    private void addLinkClickWithConfirm(View buttonId, String url) {
+        buttonId.setOnClickListener(v -> showConfirmThenOpen(url));
     }
 
     /** دیالوگ تایید بدون لغو؛ فقط دکمه "تایید" */
@@ -185,7 +181,10 @@ public String videoid=null;
 
                             }
                         });
-                openInAppTab(url);
+                Intent intent = new Intent(Tormajazi.this, Webview.class);
+                intent.putExtra("url", url);
+                startActivity(intent);
+
                 dialog.dismiss();
             });
         }
