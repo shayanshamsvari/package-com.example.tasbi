@@ -1,4 +1,4 @@
-# package-com.example.tasbi
+# zenithra.shams.tasbi
 Digital Tasbih &amp; Live 3D Shrine Streaming App | Spiritual Android Experience
 # 📿 Tasbih Counter + Live 3D Shrine Streaming
 
